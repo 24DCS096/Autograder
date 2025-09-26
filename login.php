@@ -10,7 +10,8 @@ if (!isset($_POST['name']) || strlen(trim($_POST['name'])) < 1) {
 $_SESSION['name'] = trim($_POST['name']);
 
 // Redirect to game page with name
-header("Location: game.php");
+header("Location: index.php?error=Incorrect password");
+
 exit();
 ?>
 <!DOCTYPE html>
