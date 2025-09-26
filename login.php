@@ -7,11 +7,8 @@ if (!isset($_POST['name']) || strlen(trim($_POST['name'])) < 1) {
 }
 
 // Save the user name in session
-$_SESSION['name'] = trim($_POST['name']);
-
-// Redirect to game page with name
-header("Location: index.php?error=Incorrect password");
-
+$_SESSION['name'] = $email;
+header("Location: game.php");  // Converts POST → GET
 exit();
 ?>
 <!DOCTYPE html>
