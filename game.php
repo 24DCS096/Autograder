@@ -49,7 +49,7 @@ if (isset($_POST['logout'])) {
 if ($human == -1) {
     echo "Please select a strategy and press Play.\n";
 } else {
-    echo "Your Play = $names[$human] Computer Play = $names[$computer] Result = $result\n";
+    echo "Your Play=$names[$human] Computer Play=$names[$computer] Result=$result\n";
 }
 ?>
 </pre>
