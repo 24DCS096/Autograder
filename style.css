@@ -1,0 +1,4 @@
+body { font-family: Arial; background: #f0f0f0; }
+.container { width: 400px; margin: 50px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);}
+h1, h2 { text-align: center; }
+select, input[type=submit] { margin: 5px; padding: 5px; }
