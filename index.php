@@ -17,6 +17,7 @@ $message = $_GET['error'] ?? '';
 <a href="login.php">Please Log In</a>
 <form method="POST" action="login.php">
     Name: <input type="text" name="name" required><br>
+    Password: <input type="password" name="pass" required><br>
     <input type="submit" value="Log In">
 </form>
 <p style="color:red;"><?= htmlentities($message) ?></p>
