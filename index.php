@@ -1,11 +1,11 @@
+<p style="color:red;">
 <?php
-session_start();
-if (isset($_SESSION['name'])) {
-    header("Location: game.php");
-    exit();
+if (isset($_GET['error'])) {
+    echo htmlentities($_GET['error']);
 }
-$message = $_GET['error'] ?? '';
 ?>
+</p>
+
 <!DOCTYPE html>
 <html>
 <head>
