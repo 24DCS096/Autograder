@@ -9,12 +9,12 @@ $message = $_GET['error'] ?? '';
 <!DOCTYPE html>
 <html>
 <head>
-<title>RPS Login - ba63c271</title>
+<title>Rock Paper Scissors - ba63c271</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="container">
-<h2>Login to Play Rock Paper Scissors</h2>
+<p>Please Log In</p>
 <form method="POST" action="login.php">
     Name: <input type="text" name="name" required><br>
     <input type="submit" value="Login">
